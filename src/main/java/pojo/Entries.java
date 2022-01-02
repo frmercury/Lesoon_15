@@ -1,6 +1,22 @@
 package pojo;
 
+import java.util.List;
+
 public class Entries {
+
+    private String id, description, name;
+
+    private List<Run> runs;
+
+    public List<Run> getRuns() {
+        return runs;
+    }
+
+    public void setRuns(List<Run> runs) {
+        this.runs = runs;
+    }
+
+
     public String getId() {
         return id;
     }
@@ -25,14 +41,5 @@ public class Entries {
         this.name = name;
     }
 
-    public Runs getRuns() {
-        return runs;
-    }
 
-    public void setRuns(Runs runs) {
-        this.runs = runs;
-    }
-
-    private String id, description, name;
-    private Runs runs;
 }
