@@ -1,6 +1,9 @@
 package pojo;
 
 public class Run {
+    private Integer blocked_count;
+    private String completed_on, config;
+
     public Integer getBlocked_count() {
         return blocked_count;
     }
@@ -24,7 +27,4 @@ public class Run {
     public void setConfig(String config) {
         this.config = config;
     }
-
-    private Integer blocked_count;
-    private String completed_on, config;
 }
